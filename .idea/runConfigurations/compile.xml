@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="compile" type="RebarRunConfigurationType" factoryName="Erlang Rebar" show_console_on_std_err="false" show_console_on_std_out="false">
+    <module name="nkserver_rpc9" />
+    <option name="allowRunningInParallel" value="false" />
+    <option name="command" value="compile" />
+    <option name="skipDependencies" value="false" />
+    <method v="2" />
+  </configuration>
+</component>

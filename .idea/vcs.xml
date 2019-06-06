@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/cowboy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/cowlib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/gun" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/nklib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/nkpacket" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/nkpgsql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/nkrest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/nkserver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/nkserver_ot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/pgsql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/lib/ranch" vcs="Git" />
+  </component>
+</project>

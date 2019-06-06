@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="shell" type="RebarRunConfigurationType" factoryName="Erlang Rebar" show_console_on_std_err="false" show_console_on_std_out="false">
+    <option name="command" value="shell" />
+    <option name="skipDependencies" value="false" />
+    <module name="">
+      <option name="moduleName" value="" />
+    </module>
+    <method />
+  </configuration>
+</component>

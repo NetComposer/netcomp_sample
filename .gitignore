@@ -1,0 +1,11 @@
+deps
+erlcinfo
+data
+dev
+log
+ebin
+.eunit
+.DS_Store
+_build
+/_checkouts
+/netcomp_sample.version

@@ -1,0 +1,15 @@
+{application, netcomp_sample, [
+    {description, "Netcomp Sample"},
+    {vsn, "develop"},
+    {modules, []},
+    {registered, []},
+    {mod, {netcomp_sample_app, []}},
+    {applications, [
+        nkserver,
+        nkserver_ot,
+        nkpgsql,
+        nkrest
+    ]},
+    {env, [
+    ]}
+]}.

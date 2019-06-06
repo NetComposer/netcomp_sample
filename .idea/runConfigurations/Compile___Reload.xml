@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Compile &amp; Reload" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
+    <module name="netcomp_sample" />
+    <option name="allowRunningInParallel" value="false" />
+    <option name="debugOptions">
+      <ErlangDebugOptions>
+        <option name="autoUpdateModulesNotToInterpret" value="true" />
+        <option name="modulesNotToInterpret">
+          <set />
+        </option>
+      </ErlangDebugOptions>
+    </option>
+    <option name="erlFlags" value="-name ide@127.0.0.1 -setcookie nk -pa $PROJECT_DIR$/_build/default/lib/nklib/ebin" />
+    <option name="moduleAndFunction" value="nklib_reloader remote_reload_ide" />
+    <option name="params" value="&quot;netcomp_sample@127.0.0.1&quot; &quot;nkserver,nkrest,netcomp_sample&quot;" />
+    <option name="useTestCodePath" value="false" />
+    <option name="workDirectory" value="" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="compile" run_configuration_type="RebarRunConfigurationType" />
+    </method>
+  </configuration>
+</component>
