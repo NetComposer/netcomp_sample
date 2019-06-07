@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 docker run \
 	-d \
 	-e COLLECTOR_ZIPKIN_HTTP_PORT=9411 \

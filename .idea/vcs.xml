@@ -9,9 +9,9 @@
     <mapping directory="$PROJECT_DIR$/_build/default/lib/nkpacket" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_build/default/lib/nkpgsql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_build/default/lib/nkrest" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/_build/default/lib/nkserver" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_build/default/lib/nkserver_ot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_build/default/lib/pgsql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_build/default/lib/ranch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_checkouts/nkserver" vcs="Git" />
   </component>
 </project>

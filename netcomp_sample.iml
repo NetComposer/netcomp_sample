@@ -21,6 +21,8 @@
       <sourceFolder url="file://$MODULE_DIR$/_build/default/lib/nkserver_ot/include" type="erlang-include" />
       <sourceFolder url="file://$MODULE_DIR$/_checkouts/nkrest/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_checkouts/nkrest/include" type="erlang-include" />
+      <sourceFolder url="file://$MODULE_DIR$/_checkouts/nkserver/include" type="erlang-include" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/default/lib/nkserver" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90f53c9f-6d5f-48bb-82af-624219f542f1" name="Default Changelist" comment="">
+    <list default="true" id="90f53c9f-6d5f-48bb-82af-624219f542f1" name="Default Changelist" comment="e">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/default/lib/nkpgsql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_build/default/lib/nkpgsql/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_app.erl" beforeDir="false" afterPath="$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_app.erl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/default/lib/nkserver/config/shell.config" beforeDir="false" afterPath="$PROJECT_DIR$/_build/default/lib/nkserver/config/shell.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/shell.config" beforeDir="false" afterPath="$PROJECT_DIR$/config/shell.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/start_jaeger.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/start_jaeger.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netcomp_sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netcomp_sample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rebar.lock" beforeDir="false" afterPath="$PROJECT_DIR$/rebar.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netcomp_sample_sup.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/netcomp_sample_sup.erl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/netcomp_sample_test.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/netcomp_sample_test.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/netcomp_sample_srv_rest.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/netcomp_sample_srv_rest.erl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,28 +25,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_checkouts/nkrest/src/nkrest_http.erl">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_checkouts/nkrest/src/nkrest.erl">
+        <entry file="file://$PROJECT_DIR$/src/netcomp_sample_test.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="57" column="59" lean-forward="true" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+            <state relative-caret-position="891">
+              <caret line="59" lean-forward="true" selection-start-line="39" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/shell.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/netcomp_sample_sup.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/netcomp_sample_test.erl">
+        <entry file="file://$PROJECT_DIR$/src/services/netcomp_sample_srv_rest.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -51,6 +76,8 @@
       <find>netcomp_base</find>
       <find>nkserver_ot</find>
       <find>RPC9</find>
+      <find>nkserver</find>
+      <find>request</find>
     </findStrings>
     <replaceStrings>
       <replace>netcomp_sample</replace>
@@ -63,20 +90,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/include/netcomp_sample.hrl" />
-        <option value="$PROJECT_DIR$/src/services/netcomp_sample_srv_rest.erl" />
         <option value="$PROJECT_DIR$/rebar.config" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/doc/intellij.md" />
         <option value="$PROJECT_DIR$/doc/clone.md" />
         <option value="$PROJECT_DIR$/src/netcomp_sample.app.src" />
         <option value="$PROJECT_DIR$/src/netcomp_sample_app.erl" />
-        <option value="$PROJECT_DIR$/src/netcomp_sample_sup.erl" />
         <option value="$PROJECT_DIR$/_build/default/lib/nkserver/config/shell.config" />
         <option value="$PROJECT_DIR$/_build/default/lib/nkpgsql/README.md" />
         <option value="$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_app.erl" />
-        <option value="$PROJECT_DIR$/config/shell.config" />
         <option value="$PROJECT_DIR$/_checkouts/nkrest/src/nkrest_http.erl" />
+        <option value="$PROJECT_DIR$/rebar.lock" />
+        <option value="$PROJECT_DIR$/docker/start_jaeger.sh" />
+        <option value="$PROJECT_DIR$/_checkouts/nkserver/src/nkserver.erl" />
+        <option value="$PROJECT_DIR$/_build/default/lib/nkrest/src/nkrest_callbacks.erl" />
+        <option value="$PROJECT_DIR$/_checkouts/nkserver/src/nkserver_plugin.erl" />
+        <option value="$PROJECT_DIR$/log/my_rest_callbacks_expanded.erl" />
+        <option value="$PROJECT_DIR$/src/my_rest.erl" />
         <option value="$PROJECT_DIR$/src/netcomp_sample_test.erl" />
+        <option value="$PROJECT_DIR$/config/shell.config" />
+        <option value="$PROJECT_DIR$/src/netcomp_sample_sup.erl" />
+        <option value="$PROJECT_DIR$/src/services/netcomp_sample_srv_rest.erl" />
       </list>
     </option>
   </component>
@@ -90,7 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,32 +155,6 @@
               <item name="_build" type="462c0819:PsiDirectoryNode" />
               <item name="default" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="nkpgsql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
-              <item name="_build" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="nkpgsql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
-              <item name="_build" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="nkpgsql" type="462c0819:PsiDirectoryNode" />
-              <item name="README.md" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
-              <item name="_build" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="nkserver_ot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -157,24 +164,6 @@
               <item name="default" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="nkserver_ot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
-              <item name="_checkouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
-              <item name="_checkouts" type="462c0819:PsiDirectoryNode" />
-              <item name="nkrest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
-              <item name="_checkouts" type="462c0819:PsiDirectoryNode" />
-              <item name="nkrest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,12 +174,12 @@
             <path>
               <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
@@ -207,15 +196,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Erlang External Tools" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -306,15 +302,18 @@
     </list>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178713" />
+      <window_info id="DB Browser" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.254818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Unicode Browser" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32996973" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
@@ -328,34 +327,153 @@
       <window_info anchor="right" id="Commander" order="3" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="6" sideWeight="0.69635034" visible="true" weight="0.32883242" />
-      <window_info anchor="right" id="Run" order="7" sideWeight="0.30364963" side_tool="true" visible="true" weight="0.32883242" />
+      <window_info anchor="right" id="Terminal" order="6" sideWeight="0.69424826" visible="true" weight="0.36134905" />
+      <window_info anchor="right" id="Run" order="7" sideWeight="0.30575177" side_tool="true" visible="true" weight="0.36134905" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/_build/default/lib/nkserver" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="file://$PROJECT_DIR$/include/netcomp_sample.hrl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_plugin.erl" />
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkrest/src/nkrest_app.erl" />
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_util.erl" />
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_callbacks.erl" />
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver/config/shell.config" />
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver_ot/src/nkserver_ot_app.erl" />
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_app.erl" />
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver_ot/src/nkserver_ot_sender.erl" />
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkpgsql/README.md" />
+    <entry file="file://$PROJECT_DIR$/_checkouts/nkrest/src/nkrest_http.erl" />
+    <entry file="file://$PROJECT_DIR$/_checkouts/nkrest/src/nkrest.erl" />
     <entry file="file://$PROJECT_DIR$/rebar.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rebar.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netcomp_sample.version">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/clone.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/intellij.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="289">
-            <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <first_editor relative-caret-position="340">
+            <caret line="16" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/jaeger.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/cowboy/examples/websocket/priv/static/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="1" column="283" selection-start-line="1" selection-start-column="283" selection-end-line="1" selection-end-column="283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver/rebar.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver/src/nkserver.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_checkouts/nkserver/src/nkserver_callbacks.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netcomp_sample_app.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netcomp_sample.app.src">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/start_jaeger.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkrest/src/nkrest_plugin.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkrest/src/nkrest_http.erl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkrest/src/nkrest.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -366,181 +484,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/netcomp_sample_srv_rest.erl">
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver_ot/src/nkserver_ot_plugin.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="520">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/netcomp_sample.hrl">
+    <entry file="file://$PROJECT_DIR$/_checkouts/nkserver/src/nkserver_plugin.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="663">
+          <caret line="39" column="57" lean-forward="true" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/clone.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkrest/src/nkrest_plugin.erl">
+    <entry file="file://$PROJECT_DIR$/_checkouts/nkserver/src/nkserver.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="46" selection-start-line="44" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_plugin.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="53" selection-start-line="44" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/netcomp_sample_sup.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkrest/src/nkrest_app.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_util.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_callbacks.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver/config/shell.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkrest/src/nkrest_http.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6834">
-          <caret line="402" column="54" lean-forward="true" selection-start-line="402" selection-start-column="54" selection-end-line="402" selection-end-column="54" />
+        <state relative-caret-position="-999">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_build/default/lib/nkrest/src/nkrest_callbacks.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="519">
+          <caret line="78" selection-start-line="74" selection-end-line="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver_ot/src/nkserver_ot_app.erl">
+    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkrest/ebin/nkrest_callbacks.beam">
+      <provider editor-type-id="BEAM" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver/src/nkserver.erl">
+    <entry file="file://$PROJECT_DIR$/log/my_rest_callbacks_expanded.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-927">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="348">
+          <caret line="127" column="47" lean-forward="true" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/netcomp_sample_app.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/netcomp_sample.app.src">
+    <entry file="file://$PROJECT_DIR$/src/my_rest.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkpgsql/src/nkpgsql_app.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/shell.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver_ot/src/nkserver_ot_sender.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="81" column="43" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_build/default/lib/nkpgsql/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_build/default/lib/nkserver_ot/src/nkserver_ot.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        <state relative-caret-position="319">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_checkouts/nkrest/src/nkrest_http.erl">
+    <entry file="file://$PROJECT_DIR$/config/shell.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state relative-caret-position="323">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_checkouts/nkrest/src/nkrest.erl">
+    <entry file="file://$PROJECT_DIR$/src/netcomp_sample_sup.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="57" column="59" lean-forward="true" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/netcomp_sample_test.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="891">
+          <caret line="59" lean-forward="true" selection-start-line="39" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/netcomp_sample_srv_rest.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
