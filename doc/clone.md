@@ -9,8 +9,8 @@
    * netcomp_my.app.src
    * netcomp_my_app.erl (define, supervisor call)
    * netcomp_my.hrl (in uppercase)
-   * Makefile
+   * envs
 * Do make
 * Exclude from git ide-related files
 * Distribute rebar.lock for tested versions
-    
+

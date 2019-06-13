@@ -1,4 +1,5 @@
-APP = netcomp_sample
+include envs
+
 REBAR = ./rebar3
 AFLAGS = "-kernel shell_history enabled -kernel logger_sasl_compatible true"
 
