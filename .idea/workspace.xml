@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90f53c9f-6d5f-48bb-82af-624219f542f1" name="Default Changelist" comment="e">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/cockroach.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/netcomp_sample_srv_pgsql.erl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/shell.config" beforeDir="false" afterPath="$PROJECT_DIR$/config/shell.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netcomp_sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netcomp_sample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rebar.lock" beforeDir="false" afterPath="$PROJECT_DIR$/rebar.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/netcomp_sample_sup.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/netcomp_sample_sup.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/cockroach.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/cockroach.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,16 +35,16 @@
         <entry file="file://$PROJECT_DIR$/src/netcomp_sample.app.src">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_checkouts/nkpgsql/src/nkpgsql_app.erl">
+        <entry file="file://$PROJECT_DIR$/_checkouts2/nkpgsql/src/nkpgsql_app.erl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -61,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/services/netcomp_sample_srv_pgsql.erl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
-              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -70,8 +62,8 @@
         <entry file="file://$PROJECT_DIR$/doc/cockroach.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <first_editor relative-caret-position="204">
+                <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -99,7 +91,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_checkouts/nkpgsql/src/nkpgsql_callbacks.erl">
+        <entry file="file://$PROJECT_DIR$/_checkouts2/nkpgsql/src/nkpgsql_callbacks.erl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
@@ -178,18 +170,17 @@
             <path>
               <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="_checkouts2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netcomp_sample" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="cockroach.md" type="ab9368bb:PsiFileNode" />
             </path>
             <path>
               <item name="netcomp_sample" type="b2602c69:ProjectViewProjectNode" />
@@ -343,7 +334,7 @@
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info active="true" anchor="right" id="Terminal" order="6" sideWeight="0.69343066" visible="true" weight="0.3610008" />
-      <window_info anchor="right" id="Run" order="7" sideWeight="0.30656934" side_tool="true" visible="true" weight="0.3610008" />
+      <window_info anchor="right" id="Run" order="7" sideWeight="0.30656934" side_tool="true" weight="0.3610008" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -505,7 +496,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_checkouts/nkpgsql/src/nkpgsql_callbacks.erl">
+    <entry file="file://$PROJECT_DIR$/_checkouts2/nkpgsql/src/nkpgsql_callbacks.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
@@ -519,7 +510,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_checkouts/nkpgsql/src/nkpgsql_plugin.erl">
+    <entry file="file://$PROJECT_DIR$/_checkouts2/nkpgsql/src/nkpgsql_plugin.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
@@ -543,25 +534,25 @@
     <entry file="file://$PROJECT_DIR$/src/netcomp_sample.app.src">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_checkouts/nkpgsql/src/nkpgsql_app.erl">
+    <entry file="file://$PROJECT_DIR$/_checkouts2/nkpgsql/src/nkpgsql_app.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_checkouts/nkpgsql/src/nkpgsql.erl">
+    <entry file="file://$PROJECT_DIR$/_checkouts2/nkpgsql/src/nkpgsql.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_checkouts/nkpgsql/src/nkpgsql_util.erl">
+    <entry file="file://$PROJECT_DIR$/_checkouts2/nkpgsql/src/nkpgsql_util.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="58" lean-forward="true" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
@@ -571,15 +562,15 @@
     <entry file="file://$PROJECT_DIR$/src/services/netcomp_sample_srv_pgsql.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
-          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/cockroach.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <first_editor relative-caret-position="204">
+            <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
