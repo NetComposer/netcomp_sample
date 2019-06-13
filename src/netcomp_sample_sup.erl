@@ -12,13 +12,13 @@
 
 %% @private
 start_link() ->
-    %PgSqlConfig = netcomp_sample_app:get(db),
+    PgSqlConfig = netcomp_sample_app:get(db),
     RestConfig = netcomp_sample_app:get(listen),
     ChildsSpec = case netcomp_sample_app:get(start_services) of
         true ->
             lager:notice("Starting services"),
             [
-                %nkserver:get_sup_spec(nkpgsql, ?PGSQL_SRV, PgSqlConfig),
+                nkserver:get_sup_spec(<<"PgSQL">>, ?PGSQL_SRV, PgSqlConfig),
                 nkserver:get_sup_spec(<<"Rest">>, ?REST_SRV, RestConfig)
             ];
         false ->

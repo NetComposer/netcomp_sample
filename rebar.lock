@@ -33,7 +33,7 @@
   1},
  {<<"nkpgsql">>,
   {git,"https://github.com/netcomposer/nkpgsql",
-       {ref,"1af6d0d4b9d6d6cca17baa7d0ea6e68c8c79c894"}},
+       {ref,"d147ed680419f56adefae16c3e4b8c34c2e6ed8c"}},
   0},
  {<<"nkrest">>,
   {git,"https://github.com/netcomposer/nkrest",
