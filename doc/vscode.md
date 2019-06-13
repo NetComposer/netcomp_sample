@@ -120,10 +120,6 @@ A different way to create workspace file is to directly type the folders in a te
 {
     "folders": [
         {
-            // "name": "MAIN PROJECT",
-            "path": "/path/to/project"
-        },
-        {
             // "name": "DEPENDENCY 01",
             "path": "/path/to/project/_checkouts/dep_01"
         },
@@ -135,12 +131,18 @@ A different way to create workspace file is to directly type the folders in a te
         {
             // "name": "DEPENDENCY N",
             "path": "/path/to/project/_checkouts/dep_N"
+        },
+        {
+            // "name": "MAIN PROJECT",
+            "path": "/path/to/project"
         }
     ],
     "settings": {}
 }
 ```
 Your file explorer will be organized by workspaces, following the same order defined in the workspace file. You can rearrange it in case you want to add a new dependency and keep the alphabetical order.
+
+```Important!: There is a bug that will hide subrepositories from the GIT view if they are under an ignored folder (e.g. _checkouts). A workaround is to leave the main project at last position. This way, the previous GIT repositories will be loaded and will be able to be managed from VSCode```
 
 You can check the following link for further info:
 
