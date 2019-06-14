@@ -6,6 +6,7 @@ log
 ebin
 .eunit
 .DS_Store
+cockroach-data
 priv
 _build
 /_checkouts
