@@ -1,4 +1,5 @@
-APP = netcomp_sample
+include envs
+
 REBAR = ./rebar3
 AFLAGS = "-kernel shell_history enabled -kernel logger_sasl_compatible true"
 
@@ -61,5 +62,5 @@ docs:
 
 
 shell:
-	ERL_AFLAGS=$(AFLAGS) $(REBAR) shell --config config/shell.config --name $(APP)@127.0.0.1 --setcookie nk --apps $(APP)
+	ERL_AFLAGS=$(AFLAGS) $(REBAR) shell --config config/shell.config --name $(APP)$(VSN)@$(FQDN) --setcookie nk --apps $(APP)
 

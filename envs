@@ -1,0 +1,9 @@
+export HOSTNAME=local
+export APP=netcomp_sample
+#export VSN=_01
+export VSN=
+export MOUNT=/opt
+export CODE_LOADING_MODE=interactive
+#export FQDN=${HOSTNAME}.${APP}.nc.svc.cluster.local
+export FQDN=127.0.0.1
+export CURRENT_DIR=$( cd $( dirname ${BASH_SOURCE[0]} ) && pwd )
