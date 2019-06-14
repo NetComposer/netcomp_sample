@@ -150,7 +150,7 @@ https://vscode-eastus.azurewebsites.net/docs/editor/multi-root-workspaces
 
 ## Send HTTP requests within VSCode
 
-For doing this you will need the ```REST Client``` extension. Once installed, simply create a new file (under /priv for example) like this:
+To do this you need the ```REST Client``` extension. Once installed, simply create a new file *.http (under /priv for example) like this:
 ```
 // Variables defined
 @base_url = http://localhost:9001
