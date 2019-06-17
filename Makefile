@@ -64,3 +64,11 @@ docs:
 shell:
 	ERL_AFLAGS=$(AFLAGS) $(REBAR) shell --config config/shell.config --name $(APP)$(VSN)@$(FQDN) --setcookie nk --apps $(APP)
 
+network:
+	@docker network create -d bridge $(APP)
+
+db-start:
+	@docker stop cockroach; docker rm cockroach; docker run -d --name=cockroach --hostname=cockroach --net=$(APP) -p 26257:26257 -p 8080:8080 -v "${PWD}/cockroach-data:/cockroach/cockroach-data" cockroachdb/cockroach:v2.1.0 start --insecure
+
+db-connect:
+	@docker exec -it cockroach ./cockroach sql --insecure
