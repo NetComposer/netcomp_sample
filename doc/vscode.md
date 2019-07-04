@@ -1,12 +1,12 @@
 # VSCode Aspects
 
-* You can view this markdown with ⌘⇧P and then type ```Markdown: Open Preview``` (or ```Markdown Open Preview to the Side``` for editing)
+* You can view this markdown with ⌘⇧P and then type `Markdown: Open Preview` (or `Markdown Open Preview to the Side` for editing)
 * Install some extensions (at least, Erlang/OTP)
 * Create a workspace file for a multi-root workspace (check [Multi-root workspaces]() for further info)
 * If you can't find a text occurrence you should review your include/exclude definition (check [Search tips]() for further info)
 
 ## Useful keyboard shortcuts
-OS X Keys: ```Ctrl```, ```⇧ Shift```, ```⌘ Command```, ```⌥ Alt```
+OS X Keys: `Ctrl`, `⇧ Shift`, `⌘ Command`, `⌥ Alt`
 
 * Hide/Show side bar: ⌘B (OS X)
 * Open command palette: ⌘⇧P (OS X)
@@ -107,15 +107,15 @@ To be able to limit your searches, you can define folders or extensions to be ta
 ```
 src/, include/, config/, _checkouts/, envs, Makefile, rebar.lock, rebar.config
 ```
-While a exclude line will look like:
+While an exclude line will look like:
 ```
 _build/
 ```
 If you see unexpected results when searching, examine the includes and excludes to determine what needs to be changed
 ## Multi-root workspaces
-A multi-root workspace is useful if you are working with several projects at the same time. To add a new folder to your current workspace, you can use ```File > Add Folder to Workspace``` command to bring up an Open Folder dialog. When finished, you can save your current workspace with ```File > Save Workspace As...``` command.
+A multi-root workspace is useful if you are working with several projects at the same time. To add a new folder to your current workspace, you can use `File > Add Folder to Workspace` command to bring up an Open Folder dialog. When finished, you can save your current workspace with `File > Save Workspace As...` command.
 
-A different way to create workspace file is to directly type the folders in a text file named ```my_project.code-workspace``` such as:
+A different way to create workspace file is to directly type the folders in a text file named `my_project.code-workspace` such as:
 ```
 {
     "folders": [
@@ -142,7 +142,7 @@ A different way to create workspace file is to directly type the folders in a te
 ```
 Your file explorer will be organized by workspaces, following the same order defined in the workspace file. You can rearrange it in case you want to add a new dependency and keep the alphabetical order.
 
-```Important!: There is a bug that will hide subrepositories from the GIT view if they are under an ignored folder (e.g. _checkouts). A workaround is to leave the main project at last position. This way, the previous GIT repositories will be loaded and will be able to be managed from VSCode```
+`Important!: There is a bug that will hide subrepositories from the GIT view if they are under an ignored folder (e.g. _checkouts). A workaround is to leave the main project at last position. This way, the previous GIT repositories will be loaded and will be able to be managed from VSCode`
 
 You can check the following link for further info:
 
@@ -150,7 +150,7 @@ https://vscode-eastus.azurewebsites.net/docs/editor/multi-root-workspaces
 
 ## Send HTTP requests within VSCode
 
-To do this you need the ```REST Client``` extension. Once installed, simply create a new file *.http (under /priv for example) like this:
+To do this you need the `REST Client` extension. Once installed, simply create a new file *.http (under /priv for example) like this:
 ```
 // Variables defined
 @base_url = http://localhost:9001
@@ -170,30 +170,31 @@ Content-Type: {{content_type}}
   "field_02" : "{{value_02}}"
 }
 ```
-Note: each request must be preceded by ```###```
+Note: each request must be preceded by `###`
 
-Once created, you can send the request by clicking ```Send Request``` under ```###```
-You can also export your HTTP request as a cURL by clicking right-button and then ```Copy Request as cURL```
-or export your request in one of the supported languages with ```Generate Code Snippet```
+Once created, you can send the request by clicking `Send Request` under `###`
+You can also export your HTTP request as a cURL by clicking right-button and then `Copy Request as cURL`
+or export your request in one of the supported languages with `Generate Code Snippet`
 
 More info at: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 
 ## Useful extensions
 VSCode has tons of extensions that will help you to highlight syntax for a certain programming language, run browsers for easy web developping, make HTTP requests, manage git repositories, view OpenAPI YAML/JSON docs, etc. These are some of the ones I found interesting, feel free to add yours too:
-* ```Docker```: Adds syntax highlighting, commands, hover tips, and linting for Dockerfile and docker-compose files
-* ```Docker Linter```: Lint perl, python and/or ruby in your docker containers
-* ```Erlang/OTP```: Erlang/OTP support with syntax highlighting, auto-indent and snippets (although it usually failes to apply indentation when finishing a clause with ```end``` keyword)
-* ```ESLint```: Integrates ESLint JavaScript into VS Code
-* ```Express```: Hosts current workspace with Express web server
-* ```GitHistory```: View git log, file history, compare branches or commits
-* ```Go```: Rich Go language support for Visual Studio Code
-* ```Material Theme```: The most epic theme now for Visual Studio Code
-* ```REST Client```: REST Client for Visual Studio Code
-* ```Spanish Language Pack for Visual Studio Code```: Language pack extension for Spanish
-* ```SVG Viewer```: SVG Viewer for Visual Studio Code
-* ```Swagger Viewer```: Swagger Viewer lets you preview and validate Swagger 2.0 and OpenAPI files as you type in Visual Studio Code
-* ```Task Master```: Task Master will automatically trawl your project directory for task scripts, e.g. npm, gulp, shell, python, ruby, powershell, perl scripts etc... and allow you to execute each task with the click of a mouse!
-* ```vscode-linter-erlc```: A linter for erlang, using the erlc compiler
+* `Docker`: Adds syntax highlighting, commands, hover tips, and linting for Dockerfile and docker-compose files
+* `Docker Linter`: Lint perl, python and/or ruby in your docker containers
+* `erlang`: Adds support for the Erlang language to Visual Studio Code, including editing, building and debugging. If you experience problems with automatic indentation, set "erlang.autoIndent" to false
+* `Erlang/OTP`: Erlang/OTP support with syntax highlighting, auto-indent and snippets (although it usually failes to apply indentation when finishing a clause with `end` keyword)
+* `ESLint`: Integrates ESLint JavaScript into VS Code
+* `Express`: Hosts current workspace with Express web server
+* `GitHistory`: View git log, file history, compare branches or commits
+* `Go`: Rich Go language support for Visual Studio Code
+* `Material Theme`: The most epic theme now for Visual Studio Code
+* `REST Client`: REST Client for Visual Studio Code
+* `Spanish Language Pack for Visual Studio Code`: Language pack extension for Spanish
+* `SVG Viewer`: SVG Viewer for Visual Studio Code
+* `Swagger Viewer`: Swagger Viewer lets you preview and validate Swagger 2.0 and OpenAPI files as you type in Visual Studio Code
+* `Task Master`: Task Master will automatically trawl your project directory for task scripts, e.g. npm, gulp, shell, python, ruby, powershell, perl scripts etc... and allow you to execute each task with the click of a mouse!
+* `vscode-linter-erlc`: A linter for erlang, using the erlc compiler
 
 ## Theme customization and more
 
