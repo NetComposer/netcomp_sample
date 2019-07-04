@@ -7,11 +7,11 @@ make -C $CURRENT_DIR || exit 1
 echo "Reloading modules..."
 
 erl -pa $CURRENT_DIR \
-    -eval "nklib_reloader:remote_reload(\"${APP}${VSN}@${FQDN}\", \"nklib\")." \
-    -eval "nklib_reloader:remote_reload(\"${APP}${VSN}@${FQDN}\", \"nkpacket\")." \
-    -eval "nklib_reloader:remote_reload(\"${APP}${VSN}@${FQDN}\", \"nkrest\")." \
-    -eval "nklib_reloader:remote_reload(\"${APP}${VSN}@${FQDN}\", \"nkserver\")." \
-    -eval "nklib_reloader:remote_reload(\"${APP}${VSN}@${FQDN}\", \"${APP}\")." \
+    -eval "nklib_reloader:remote_reload_ide(\"${APP}${VSN}@${FQDN}\", \"nklib\")." \
+    -eval "nklib_reloader:remote_reload_ide(\"${APP}${VSN}@${FQDN}\", \"nkpacket\")." \
+    -eval "nklib_reloader:remote_reload_ide(\"${APP}${VSN}@${FQDN}\", \"nkrest\")." \
+    -eval "nklib_reloader:remote_reload_ide(\"${APP}${VSN}@${FQDN}\", \"nkserver\")." \
+    -eval "nklib_reloader:remote_reload_ide(\"${APP}${VSN}@${FQDN}\", \"${APP}\")." \
     -s init stop -noshell \
     -name reloader@127.0.0.1 \
     -setcookie nk \
